@@ -49,12 +49,12 @@ console.log(min);
 
 // Создайте массив из 7 элементов и найдите количество элементов, которые больше 5.
 let arr11 = [1, 2, 3, 4, 5, 6, 7];
-let countMoreThan5 = arr11.filter(x => x > 5).length;
+let countMoreThan5 = arr11.filter(x => x > 5);
 console.log(countMoreThan5);
 
 // Создайте массив из 10 элементов и найдите количество элементов, которые меньше 10.
 let arr12 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let countLessThan10 = arr12.filter(x => x < 10).length;
+let countLessThan10 = arr12.filter(x => x < 10);
 console.log(countLessThan10);
 
 // Создайте массив из 8 элементов и объедините его с другим массивом из 4 элементов.
